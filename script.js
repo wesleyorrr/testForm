@@ -5,8 +5,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    // Enviar dados para o Google Apps Script
-    fetch('https://script.google.com/macros/s/AKfycbw8W6eLQI83TJgTRpjJX2V3i565YJShNSdgJspnvVBiX9VDNJ0wqLLgqLSnb2-fxHUgAg/exec', {
+    // Enviar dados para o Google Sheets
+    fetch('https://script.google.com/macros/s/AKfycbww4OGzPt46yykixcfPt82NBqZ2_R8S-eca04W6lMvyp1Gs5m3cUF3TBSp67C4InTUT/exec', {
         method: 'POST',
         mode: 'cors',
         headers: {
