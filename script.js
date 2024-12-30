@@ -9,7 +9,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     submitButton.disabled = true; // Desabilita o botão durante o envio
     submitButton.textContent = "Enviando..."; // Muda o texto do botão
 
-    fetch('SEU_URL_DO_APPS_SCRIPT', { // Coloque o URL AQUI
+    fetch('https://script.google.com/macros/s/AKfycbzelvXiPcTSamM6_eUMRXm9pY5-fNFdIUX0U5JDZhTvId_0wX2Jzr6tsuhejS0UnT0/exec', { // Coloque o URL AQUI
         method: 'POST',
         mode: 'cors',
         headers: {
